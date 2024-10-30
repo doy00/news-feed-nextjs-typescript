@@ -18,7 +18,7 @@ const HeadLineList: React.FC<HeadLineListProps> = ({ headlines }) => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true, // 자동 슬라이드
-    autoplaySpeed: 5000, // 3초마다 슬라이드
+    autoplaySpeed: 10000, // 3초마다 슬라이드
   };
 
   return (
